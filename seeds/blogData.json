@@ -1,10 +1,17 @@
 [
     {
         "title": "Is tech good?",
-        "article": "Tech is good. But maybe its bad? thoughts?"
+        "article": "Tech is good. But maybe its bad? thoughts?",
+        "user_id": 3
     },
     {
         "title": "React is for Nerds?",
-        "article": "React is for Nerds who need girlfriends!"
+        "article": "React is for Nerds who need girlfriends!",
+        "user_id": 1
+    },
+    {
+        "title": "What was that dog doing?",
+        "article": "You would think the dog join their hand(paw) into the circle would be an obvious.....",
+        "user_id": 2
     }
 ]

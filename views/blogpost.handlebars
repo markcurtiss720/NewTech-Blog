@@ -1,4 +1,40 @@
-{{#if loggedIn}}
-{{else}}
-{{> needlogin-details}}
-{{/if}}
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="d-flex w-100 justify-content-between">
+        <h2>{{blogs.title}}</h2>
+        <small>created on {{format_date blogs.created_at}}</small>
+      </div>
+      <h5>By {{blogs.user.name}}</h5>
+      <p>{{blogs.article}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="list-group mt-5">
+  <h1>Comments</h1>
+  {{#each blogs.comments as |comment|}}
+  {{> comments}}
+  {{/each}}
+
+  <form class="p-3 mb-2 bg-white text-dark mt-5">
+  <h3>Add Commet</h3>
+  <div class="form-group row mb-1">
+    <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticName" value="{{userName}}">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputComment" class="col-sm-2 col-form-label">comment</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputComment" placeholder="comment">
+    </div>
+  </div>
+  <button type="button" id="button" class="btn btn-primary mt-3">submit</button>
+
+</form>
+  
+</div>
+
+<script src="/js/add-comment.js"></script>
