@@ -1,0 +1,17 @@
+[
+    {
+        "user_id": 1,
+        "blog_id": 1,
+        "comment_text": "Tech is good i agree."
+    },
+    {
+        "user_id": 2,
+        "blog_id": 2,
+        "comment_text": "Hey Im a nerd and i am offended how true this is."
+    },
+    {
+        "user_id": 3,
+        "blog_id": 3,
+        "comment_text": "This makes so much sense now."
+    }
+]
