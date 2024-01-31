@@ -20,12 +20,45 @@ Clone to repo to you computer and run `npm i` to install the required packages. 
 
 ## Usage
 
-coming soon!
+My app is deployed here
+https://newtechblogs-869a03be756e.herokuapp.com/login
 
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  When you visit the site you will be prompted to login
+  ![Login](assets/Login.png)
 
-    md
-    ![alt text](assets/images/screenshot.png)
+  Alternatlivly you can sign up by clicking  `Sign up for NewTech` in the top right corner
+  ![Sign up](assets/Signup.png)
+
+  You then be redirected to your dashbaord. where you can create posts, view all post you have made, edit those posts and even delete them from the site.
+  ![Dashboard](assets/Dashboard.png)
+
+  ![Making Post](assets/examplepost.png)
+
+  New post made
+  ![New Post](assets/newpost.png)
+
+  ![Edit Post](assets/)
+
+  Updated post
+  ![Post Updated on Dashbaord](assets/updatedpost.png)
+
+  Deleting post
+  ![Deleting Post](assets/deletepost.png)
+
+
+  When you click home you are able to view all post made on the site
+
+  ![Home Page](assets/homepage.png)
+
+  You can view any post as long as you are logged in, and you can make comments on those posts.
+  ![Blog Post](assets/viewpost.png)
+
+
+
+
+
+
+
     
 
 ## Credits
