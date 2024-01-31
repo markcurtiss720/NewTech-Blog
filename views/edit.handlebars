@@ -1,0 +1,19 @@
+<h1>Edit Blog</h1>
+
+<div class="font-weight-bold text-xl-left">
+    <form>
+     <div class="form-group">
+       <label for="title">Title: {{blog.title}}</label>
+       <input type="title" class="form-control" id="title"     placeholder="{{{blog.title}}}"/>
+     </div>
+     <div class="form-group">
+       <label for="article">Article</label>
+       <textarea class="form-control"  id="article" rows="3" placeholder="{{{blog.article}}}"></textarea>
+    </div>
+    <button type="submit" id="button" class="btn  btn-primary">Submit</button>
+    <button id="delete-btn" class="btn btn-primary">Delete</button>
+    </form>
+</div>
+
+<script src="/js/edit.js"></script>
+<script src="/js/delete.js"></script> 

@@ -2,16 +2,16 @@
     {
         "user_id": 1,
         "blog_id": 1,
-        "comment_text": "Tech is good i agree."
+        "comment_text": "Very insightful!"
     },
     {
         "user_id": 2,
         "blog_id": 2,
-        "comment_text": "Hey Im a nerd and i am offended how true this is."
+        "comment_text": "I didn't even know something could replace node.js haha"
     },
     {
         "user_id": 3,
         "blog_id": 3,
-        "comment_text": "This makes so much sense now."
+        "comment_text": "I 100% agree!"
     }
 ]

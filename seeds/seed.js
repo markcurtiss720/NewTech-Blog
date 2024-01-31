@@ -16,18 +16,6 @@ const seedDatabase = async () => {
 
     await Comment.bulkCreate(commentData);
 
-    // for(const blog of blogData) {
-    //     const correspondingUser = users.find((user) => user.id === blog.user_id);
-    //     if(correspondingUser) {
-    //         await Blog.create({
-    //             ...blog,
-    //             user_id: correspondingUser.id
-    //         });
-    //     } else {
-    //         console.error(`User with id ${blog.user_id} not found with id ${blog.id}`)
-    //     }
-    // }
-
     process.exit(0);
 };
 
