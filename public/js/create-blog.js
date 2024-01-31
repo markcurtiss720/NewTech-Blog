@@ -9,7 +9,7 @@ const createBlog = async (event) => {
     const article = document.getElementById('articleText').value.trim();
 
     if(title && article) {
-        const response = await fetch('/api/create', {
+        const response = await fetch('/api/blog', {
             method: 'POST',
             body: JSON.stringify({
                 title,

@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Blog, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
     try {
         const blogData = await Blog.findAll({
             attributes: [
@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
 });
 
 
-router.get('/blogpost', async (req, res) => {
+router.get('/blogpost', withAuth, async (req, res) => {
     try{
     const blogData = await Blog.findAll({
         attributes: [

@@ -66,11 +66,32 @@ router.get('/view/:id', withAuth, async (req, res) => {
 });
 
 
-
-router.get('/create', withAuth, async (req, res) => {
+router.get('/blog', withAuth, async (req, res) => {
     res.render('create-blog', {
         logged_in: true,
     });
+});
+
+
+router.get('/edit/:id', withAuth, async (req, res) => {
+    try {
+        const myBlog = await Blog.findByPk(req.params.id, {
+            attributes: [
+                'id',
+                'title',
+                'article',
+            ],
+        });
+
+        const blog = myBlog.get({ plain: true });
+        res.render('edit', {
+            blog,
+            logged_in: true,
+        })
+    } catch (err) {
+        console.log(err);
+        res.status(500).json(err); 
+    };
 });
 
 module.exports = router;

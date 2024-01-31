@@ -1,17 +1,17 @@
 [
     {
-        "title": "Is tech good?",
-        "article": "Tech is good. But maybe its bad? thoughts?",
+        "title": "What is the future of REACT?",
+        "article": "React, a JavaScript library developed by Facebook, has become a cornerstone of modern web development. Since its release in 2013, React has undergone significant evolution, empowering developers to create dynamic and interactive user interfaces. As we look to the future, several trends and innovations are poised to shape the trajectory of React and influence the way we build web applications.",
         "user_id": 3
     },
     {
-        "title": "React is for Nerds?",
-        "article": "React is for Nerds who need girlfriends!",
+        "title": "Move over Node, and system is coming",
+        "article": "In the ever-evolving landscape of server-side JavaScript frameworks, a notable contender emerging as a strong alternative to Node.js is Deno. Developed by Ryan Dahl, the original creator of Node.js, Deno addresses some of the perceived limitations of its predecessor. Deno boasts improved security features, a simplified module system, and built-in support for TypeScript, enhancing both developer experience and code reliability. With its forward-looking design choices and commitment to overcoming Node.js shortcomings, Deno presents itself as a promising and robust option for server-side JavaScript development.",
         "user_id": 1
     },
     {
-        "title": "What was that dog doing?",
-        "article": "You would think the dog join their hand(paw) into the circle would be an obvious.....",
+        "title": "The ups and downs of learning code",
+        "article": "Learning to code is a transformative journey filled with both challenges and triumphs. On the upside, acquiring coding skills opens doors to a world of innovation and problem-solving, empowering individuals to bring their creative ideas to life. The sense of accomplishment when successfully building a program or solving a complex bug is unparalleled. However, the learning process also comes with its downsides. Frustration can be a constant companion, as debugging and overcoming obstacles demand perseverance. Impostor syndrome may rear its head, causing self-doubt. Yet, the upsides, like the joy of seeing tangible results and the satisfaction of continuous learning, often outweigh the downsides, making the coding journey a rewarding and dynamic experience.",
         "user_id": 2
     }
 ]
